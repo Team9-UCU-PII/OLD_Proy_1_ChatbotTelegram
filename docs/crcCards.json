@@ -97,39 +97,14 @@
     ]
   },
   {
-    "name": "DataBaseEmpresas",
+    "name": "DataSourceArchivos",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Guardar/recuperar info de empresas"
+      "Guardar/recuperar info de empresas, emprendedores, publicaciones, etc"
     ],
     "collaborators": [
-      "Empresa"
-    ]
-  },
-  {
-    "name": "DataBaseEmprendedores",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 1,
-    "responsibilities": [
-      "Guardar/Recuperar data de emprendedores"
-    ],
-    "collaborators": [
-      "Emprendedor"
-    ]
-  },
-  {
-    "name": "DataBasePublicación",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 1,
-    "responsibilities": [
-      "Guardar/recuperar data de publicaciones"
-    ],
-    "collaborators": [
-      "Publicación",
       ""
     ]
   },
@@ -148,7 +123,7 @@
     ]
   },
   {
-    "name": "Auth",
+    "name": "Autenticacion",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
